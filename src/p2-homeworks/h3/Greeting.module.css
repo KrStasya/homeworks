@@ -1,0 +1,46 @@
+.oun {
+    display: flex;
+    align-items: flex-start;
+
+}
+
+.error {
+    margin-left: 20px;
+    font-weight: bold;
+    outline: none;
+}
+
+.imput {
+    margin-left: 20px;
+    background: #9C9C9C;
+    border-radius: 5px;
+    border: 2px solid #141414;
+    color:#141414;
+}
+.b {
+    border-radius: 5px;
+    border: 2px solid #141414;
+    background: #9C9C9C;
+    color:#141414;
+    margin-left: 10px;
+}
+.errorInput {
+    margin-left: 20px;
+    background: maroon;
+    border-radius: 5px;
+    border: 2px solid #141414;
+    color:#141414;
+}
+.total {
+    margin-left: 10px;
+    font-weight: bold;
+    color: #141414;
+}
+.eb {
+    border-radius: 5px;
+    border: 2px solid #141414;
+    background: maroon;
+    color:#141414;
+    margin-left: 10px;
+}
+

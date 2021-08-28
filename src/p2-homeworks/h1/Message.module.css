@@ -1,0 +1,62 @@
+.message {
+ display: inline-block;
+ position: relative;
+ padding: .5em 2em 3em 2em;
+ width: 250px;
+ height: 50px;
+ margin-left: 26px;
+ background: #282c34;
+ border-radius: 10px;
+ box-shadow: 2px 2px 1px rgba(0,0,0,0.2);
+}
+.message:before {
+ content: "";
+ width: 0;
+ height: 0;
+ position: absolute;
+ margin-top: -5px;
+ margin-right: -5px;
+ right: 100%;
+ top: calc(80% - 12px);
+ border-top: 12px solid transparent;
+ border-right: 24px solid #282c34;
+ border-bottom: 12px solid transparent;
+ transform: rotate(12deg);
+ z-index: -1;
+}
+.avatar img {
+ position: page;
+ width: 100px;
+ border-radius: 40%;
+ margin-left: 1px;
+ display: inline-block;
+ float:left
+}
+
+.text {
+ text-align: left;
+ color: beige;
+}
+
+.name {
+ text-align: left;
+ size: 4px;
+ color: burlywood;
+}
+
+.time {
+ text-align: right;
+ color: burlywood;
+}
+
+/*
+.message > span {
+ background: #dcf8c6;
+ border-radius: 0.4em;
+ display: inline-block;
+ padding: 10px;
+ z-index: 1;
+}
+*/
+
+

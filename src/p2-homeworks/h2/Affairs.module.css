@@ -1,0 +1,80 @@
+.style {
+    display: inline-block;
+    position: relative;
+    padding: 0px 5px 35px 5px;
+    width: 315px;
+    height: 150px;
+    margin: 26px;
+    /*background: #282c34;*/
+    border-radius: 10px;
+    outline-offset: 10px;
+    outline: 2px solid #000;
+    background: linear-gradient(to top left, #404040, #282c34)
+
+}
+.but {
+    border-radius: 5px;
+    border: 2px solid #141414;
+    background: maroon;
+    color:#141414;
+    position: absolute;
+    right: 15px;
+    margin-top: 10px;
+}
+.afId {
+    display: inline-block;
+    position: relative;
+
+    margin-left: 10px;
+    text-align: right;
+    color: burlywood;
+    margin-top: 5px;
+}
+
+.afN {
+    display: inline-block;
+    position: absolute;
+    left: 50px;
+    margin-top: 5px;
+    color: burlywood;
+}
+
+.afP {
+    display: inline-block;
+    position: absolute;
+    left: 210px;
+    margin-top: 5px;
+
+
+}
+.low {
+    color: green;
+}
+
+.middle {
+    color: yellow;
+}
+
+.high {
+    color: red;
+}
+.entryfield {
+    position: absolute;
+    top: 150px;
+
+}
+.buttonfilter {
+    border-radius: 5px;
+    border: 2px solid #141414;
+    background: #9C9C9C;
+    color:#141414;
+    margin-left: 10px;
+}
+
+.activeButton {
+    color: #141414;
+    margin-left: 10px;
+    border-radius: 5px;
+    border: 2px solid #141414;
+    background: burlywood;
+}

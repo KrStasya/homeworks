@@ -1,0 +1,23 @@
+.superInput {
+    margin-left: 20px;
+    background: #9C9C9C;
+    border-radius: 5px;
+    border: 2px solid #141414;
+    color:#141414;
+}
+
+.errorInput {
+    margin-left: 20px;
+    background: maroon;
+    border-radius: 5px;
+    border: 2px solid #141414;
+    color:#141414;
+}
+
+.error {
+    margin-left: 20px;
+    font-weight: bold;
+    outline: none;
+    color: maroon;
+
+}

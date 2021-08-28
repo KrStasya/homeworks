@@ -1,0 +1,22 @@
+.Er {
+
+}
+.warning {
+    color: burlywood;
+    text-align: center;
+    font-size: 32px;
+    text-shadow: 2px 2px 3px #000
+}
+
+.number404 {
+    color: burlywood;
+    text-align: center;
+    font-size: 45px;
+    font-weight: bold;
+    text-shadow: 2px 2px 3px #000;
+}
+.picture {
+    text-align: center;
+    margin-top: 20px;
+
+}

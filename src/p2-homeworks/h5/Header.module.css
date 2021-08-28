@@ -1,0 +1,23 @@
+.stales {
+ display: flex;
+    transform: translate(-260px);
+    text-decoration: darkolivegreen;
+    transition-duration: 500ms;
+    width: 280px;
+}
+.stales:hover{
+    transition-duration: 500ms;
+    transform: translate(0);
+}
+
+.stylejunior {
+    text-decoration: none;
+    color: #141414;
+    margin: 10px;
+}
+
+.stylejunior:hover {
+    color: maroon;
+    font-style: italic;
+}
+

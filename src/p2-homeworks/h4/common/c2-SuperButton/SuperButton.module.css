@@ -1,0 +1,20 @@
+.default {
+    border-radius: 5px;
+    border: 2px solid #141414;
+    background: #9C9C9C;
+    color:#141414;
+    margin-left: 10px;
+}
+
+.red {
+    border-radius: 5px;
+    border: 2px solid #141414;
+    background: maroon;
+    color:#141414;
+    margin-left: 10px;
+}
+
+.button:disabled {
+    color: burlywood;
+    background-color: dimgrey;
+}
