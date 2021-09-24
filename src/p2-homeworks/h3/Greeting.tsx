@@ -2,6 +2,7 @@ import React, {ChangeEvent, KeyboardEvent} from 'react'
 import s from  './Greeting.module.css'
 import SuperInputText from "../h4/common/c1-SuperInputText/SuperInputText";
 import SuperButton from '../h4/common/c2-SuperButton/SuperButton';
+import SuperEditableSpan from "../h6/common/c4-SuperEditableSpan/SuperEditableSpan";
 
 type GreetingPropsType = {
     name: string // need to fix any
@@ -16,19 +17,12 @@ type GreetingPropsType = {
 const Greeting: React.FC<GreetingPropsType> = (
     {name, setNameCallback,onPress, addUser, error, totalUsers} // деструктуризация пропсов
 ) => {
-    const inputClass = error? s.errorInput: s.imput // need to fix with (?:)
-
+    const inputClass = `${s.input} ${error? s.errorInput: s.imput}` // need to fix with (?:)
 
     return (
         <div className={s.own}>
             <div>
-             {/*   <SuperInputText value={name}
-                                onKeyPress={onPress}
-                                onChange={setNameCallback}
-                                className={inputClass}
-                                onBlur={setNameCallback}/>
-                <SuperButton name={"add"} className={error? s.eb: s.b} onClick={addUser}/>*/}
-                <input
+             <input
                     value={name}
                     onKeyPress={onPress}
                     onChange={setNameCallback}

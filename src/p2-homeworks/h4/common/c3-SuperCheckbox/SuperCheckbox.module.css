@@ -1,9 +1,30 @@
-.checkbox {
+.label {
     display: flex;
-    cursor: pointer;
+    align-items: center;
+}
+
+.checkbox {
+    appearance: none;
+    width: 20px;
+    height: 20px;
+    background: maroon;
+    border-radius: 10px;
+}
+
+.checkbox:checked {
+    appearance: none;
+    background: #282c34;
+}
+
+.checkbox:focus {
+    border-radius: 10px;
+    border: 2px solid black;
+
 
 }
 
 .spanClassName {
-
+    color: #282c34;
 }
+
+

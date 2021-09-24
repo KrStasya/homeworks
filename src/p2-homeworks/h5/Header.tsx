@@ -5,10 +5,12 @@ import s from './Header.module.css'
 
 function Header() {
     return (
-        <div className={s.stales}>
-           <NavLink to ={PATH.PRE_JUNIOR} className={s.stylejunior} activeClassName={s.active}>PRE_JUNIOR</NavLink>
-           <NavLink to ={PATH.JUNIOR} className={s.stylejunior} activeClassName={s.active}>JUNIOR</NavLink>
-           <NavLink to ={PATH.JUNIOR_PLUS} className={s.stylejunior} activeClassName={s.active}>JUNIOR+</NavLink>
+        <div>
+            <div className={s.stales}>
+                <NavLink to={PATH.PRE_JUNIOR} className={s.stylejunior} activeClassName={s.active}>PRE_JUNIOR</NavLink>
+                <NavLink to={PATH.JUNIOR} className={s.stylejunior} activeClassName={s.active}>JUNIOR</NavLink>
+                <NavLink to={PATH.JUNIOR_PLUS} className={s.stylejunior} activeClassName={s.active}>JUNIOR+</NavLink>
+            </div>
         </div>
     )
 }

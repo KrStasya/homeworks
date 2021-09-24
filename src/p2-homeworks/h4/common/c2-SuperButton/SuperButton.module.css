@@ -1,8 +1,16 @@
+.button:focus {
+    border-radius: 5px;
+    border: 2px solid #141414;
+    background: burlywood;
+    color: #141414;
+    margin-left: 10px;
+}
+
 .default {
     border-radius: 5px;
     border: 2px solid #141414;
     background: #9C9C9C;
-    color:#141414;
+    color: #141414;
     margin-left: 10px;
 }
 
@@ -10,7 +18,14 @@
     border-radius: 5px;
     border: 2px solid #141414;
     background: maroon;
-    color:#141414;
+    color: #141414;
+    margin-left: 10px;
+}
+.red:focus{
+    border-radius: 5px;
+    border: 2px solid #141414;
+    background: red;
+    color: #141414;
     margin-left: 10px;
 }
 
@@ -18,3 +33,5 @@
     color: burlywood;
     background-color: dimgrey;
 }
+
+

@@ -1,5 +1,5 @@
 import React from 'react'
-import m from './Message.module.css'
+import style from './Message.module.css'
 
 export type messageData = {
     avatar: any
@@ -10,12 +10,13 @@ export type messageData = {
 
 function Message(props: messageData) {
     return (
-        <div>
-            <div className={m.avatar}><img src={props.avatar}/></div>
-            <div className={m.message}>
-            <div className={m.name}>{props.name}</div>
-            <div className={m.text}>{props.message}</div>
-            <div className={m.time}>{props.time}</div>
+        <div className={style.messages}>
+            <img className={style.avatar} src={props.avatar}/>
+            <div className={style.message}>
+                <div className={style.name}>{props.name}</div>
+                <div className={style.text}>{props.message}</div>
+                <div className={style.time}>{props.time}</div>
+
             </div>
         </div>
     )

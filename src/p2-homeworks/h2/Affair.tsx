@@ -1,7 +1,6 @@
 import React from 'react'
 import {AffairType} from "./HW2";
 import c from "./Affairs.module.css"
-import s from "../h3/Greeting.module.css";
 
 type AffairPropsType = {
     // key не нужно типизировать
@@ -18,7 +17,7 @@ function Affair (props: AffairPropsType) {
              <div className={c.afId}> {props.affair._id}</div>
             <div className={c.afN}> {props.affair.name}</div>
             <div className={c.afP + " " + affairClass}> {props.affair.priority}</div>
-            <button className={c.but}
+          <button className={c.but}
                 onClick={deleteCallback}>X</button>
         </div>
 )}

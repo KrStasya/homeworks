@@ -4,6 +4,10 @@
     text-decoration: darkolivegreen;
     transition-duration: 500ms;
     width: 280px;
+    border: 1px solid beige;
+    border-top-right-radius: 20px ;
+    border-bottom-right-radius: 20px ;
+    background: #282c34;
 }
 .stales:hover{
     transition-duration: 500ms;
@@ -12,7 +16,7 @@
 
 .stylejunior {
     text-decoration: none;
-    color: #141414;
+    color: burlywood;
     margin: 10px;
 }
 
