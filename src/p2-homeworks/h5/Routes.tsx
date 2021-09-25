@@ -23,7 +23,7 @@ function Routes() {
                 <Route path={PATH.PRE_JUNIOR} render={() => <PreJunior/>}/>
 
                 <Route path={'/'} exact render={() => <Redirect to={PATH.JUNIOR}/>}/>
-                {/*<Route path={PATH.JUNIOR} render={() => <Junior/>}/>*/}
+                <Route path={PATH.JUNIOR} render={() => <Junior/>}/>
                 <Route path={'/'} exact render={() => <Redirect to={PATH.JUNIOR_PLUS}/>}/>
                 {/* <Route path={PATH.JUNIOR_PLUS} render={() => <JuniorPlus/>}/>*/}
 
