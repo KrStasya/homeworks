@@ -1,0 +1,13 @@
+.radio {
+    width: 15px;
+    height: 15px;
+    border-radius: 10px;
+    appearance: none;
+    background: maroon;
+    margin-top: 10px;
+    margin-inline-start: 10px;
+}
+.radio:focus{
+    background: #282c34;
+    border: 2px solid black;
+}

@@ -1,0 +1,19 @@
+.op {
+    background: burlywood;
+    color: #282c34;
+}
+.op:checked {
+    background: beige;
+    color: maroon;
+}
+
+.select {
+    width: 100px;
+    padding-left: 30px;
+    background-color: burlywood;
+    margin-left: 20px;
+}
+
+.select:focus{
+    background: beige;
+}
