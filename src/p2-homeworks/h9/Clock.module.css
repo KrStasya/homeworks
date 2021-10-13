@@ -1,0 +1,19 @@
+.clock {
+    display: flex;
+    flex-direction: column;
+    Justify-content: space-between;
+    align-items: center;
+    height: 70px;
+    width: 150px;
+    border: 2px solid maroon;
+    margin: 30px;
+    background: #282c34;
+    border-radius: 5px;
+    color: beige;
+}
+.day {
+    color: burlywood;
+}
+.buttons {
+    justify-content: space-between ;
+}
