@@ -24,7 +24,9 @@ function Routes() {
 
                 <Route path={'/'} exact render={() => <Redirect to={PATH.JUNIOR}/>}/>
                 <Route path={PATH.JUNIOR} render={() => <Junior/>}/>
+
                 <Route path={'/'} exact render={() => <Redirect to={PATH.JUNIOR_PLUS}/>}/>
+                <Route path={PATH.JUNIOR_PLUS} render={() => <JuniorPlus/>}/>
                 {/* <Route path={PATH.JUNIOR_PLUS} render={() => <JuniorPlus/>}/>*/}
 
                 {/*у этого роута нет пути, он отрисуется если пользователь захочет попасть на несуществующую страницу*/}

@@ -9,7 +9,7 @@ import s from './bll/loading.module.css'
 function HW10() {
 
     const dispatch=useDispatch()
-    const loading=useSelector<AppStoreType,boolean > (state=>state.loading.loading)
+    const loading=useSelector<AppStoreType, boolean > (state=>state.loading.loading)
     const setLoading = () => {
          dispatch(loadingAC(true))
         setTimeout(()=>{
